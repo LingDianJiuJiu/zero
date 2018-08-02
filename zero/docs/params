@@ -1,0 +1,9 @@
+-verbose:gc
+-XX:+PrintGCDetails
+-XX:+PrintGCTimeStamps
+-Xloggc:gc.log
+-XX:+PrintHeapAtGC
+-XX:+TraceClassLoading
+-XX:+PrintClassHistogram
+-Xmx128m
+-Xms32m
